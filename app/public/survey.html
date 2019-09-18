@@ -120,7 +120,7 @@
       <button id="submitButton" href="" type="submit" class="btn btn-md btn-success btn-round"><h4></span> Submit</h4></button> 
 
       <div class='col s4'>
-        <p><a href='/api/friends'>API Friends List</a> | <a href=' https://brocatkinson.github.io/friendfinder-/' target='_blank'>GitHub </a></p>
+        <p><a href='/server.js'>API Friends List</a> | <a href='https://github.com/BrocAtkinson/friendfinder-' target='_blank'>GitHub </a></p>
     </div>
 
     <div id="modal1" class="modal">
@@ -130,13 +130,12 @@
       
       </div>
     <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close">Done</a>
+      <a id ="submitButton" class=" modal-action modal-close">Done</a>
     </div>
   </div>
-
+√
 </div>
 
-<!-- Grabs information and sends it to server -->
 <script type="text/javascript">
 $(document).ready(function() {
 $("#submitBtn").on("click", function() {
@@ -189,9 +188,7 @@ $("#submitBtn").on("click", function() {
         $('#q5').val("");
         $('#q6').val("");
         $('#q7').val("");
-        $('#q8').val("");
-        $('#q9').val("");
-        $('#q10').val("");
+
     } else {
         alert("Please fill out ALL fields before submitting survey!")
     }
